@@ -1,6 +1,7 @@
 # import pygame
 import guessing
 import blackjack
+import rps
 
 def main():
     print("Welcome to minigame!")
@@ -14,6 +15,9 @@ def main():
             running = False
         elif game == "blackjack":
             blackjack.blackjack()
+        elif game == "rps":
+            rps.play()
+
 
 
 
